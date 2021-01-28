@@ -29,7 +29,7 @@ ActiveRecord::Schema.define(version: 20210128040405) do
 
   create_table "vehicles", force: :cascade do |t|
     t.bigint "user_id"
-    t.string "type"
+    t.string "vehicle_type"
     t.string "color"
     t.string "brand"
     t.string "model"
