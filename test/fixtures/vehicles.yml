@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  type: 
+  color: MyString
+  brand: MyString
+  model: MyString
+  max_speed: 1
+  air_conditioning: false
+  turbo: false
+  electric: false
+
+two:
+  user: two
+  type: 
+  color: MyString
+  brand: MyString
+  model: MyString
+  max_speed: 1
+  air_conditioning: false
+  turbo: false
+  electric: false
