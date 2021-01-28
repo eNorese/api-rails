@@ -80,8 +80,15 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
+#
+#production:
+#  <<: *default
+#  database: api-rails_production
+#  username: api-rails
+#  password: <%= ENV['API-RAILS_DATABASE_PASSWORD'] %>
+
 production:
-  <<: *default
-  database: api-rails_production
-  username: api-rails
-  password: <%= ENV['API-RAILS_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  url: <%= ENV['DATABASE_URL'] %>
