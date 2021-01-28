@@ -1,0 +1,22 @@
+{
+    "user": {
+        "username": "example",
+        "password": "example",
+        "name": "example",
+        "lastname": "example",
+        "email": "example",
+        "age": 20,
+        "covid": false
+    },
+    "vehicle": {
+        "user_id": 1,
+        "vehicle_type": "example",
+        "color": "example",
+        "brand": "example",
+        "model": "example",
+        "max_speed": 120,
+        "air_conditioning": true,
+        "turbo": false,
+        "electric": true
+    }
+}
